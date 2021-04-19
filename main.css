@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*---------------------------header */
+:root{
+    --fuente1: 'Amatic SC', cursive;
+    --fuente2: 'Bangers', cursive;
+    --fuente3: 'Balsamiq Sans', cursive;
+    --evergreen: #eeee;
+    --evening: #03071e;
+    --parchment: white;
+    --amarillo: #ffba08;
+    --botanical: #faa307;
+    --evening1: #6a040f;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: var(--evening);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__title{
+    font-size: 75px;
+    margin: 10px;
+    color: var(--parchment);
+    font-family: var(--fuente2);
+}
+.header__menu{
+    list-style: none;
+    display: flex;
+}
+
+.header__menu li{
+    margin: 15px;
+}
+
+.header__menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: var(--fuente1);
+}
+
+.header__menu a:hover{
+    color: var(--amarillo);
+    transition: 500ms;
+}
+
+/*--------------------------- fin header */
+
+/*---------------------------main*/
+.main{
+    width: 100%;
+    height: 525px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--evening1);
+}
+.main__title{
+    color: var(--evergreen);
+    font-size: 55px;
+    font-family: var(--fuente1);
+    margin-top: 102px;
+    text-align: center;
+}
+.main__container hr{
+    width: 410px;
+} 
+.main__container p{
+color: var(--evergreen);
+font-family: var(--fuente3);
+font-size: 20px;
+text-align: center;
+}
+.main__button{
+    background-color: var(--botanical);
+    width: 320px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 50px;
+    height: 55px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+.main__button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: var(--fuente3);
+}
+.main__button:hover{
+    width: 350px;
+    background-color: var(--evergreen);
+    transition: 500ms;
+    margin-left: 50px;
+}
+.main__button:a hover {
+    color: black;
+}
+.blog {
+    margin: 90px 30%;
+    background-color: var(--evening1);
+}
+.contenido {
+    color: var(--evergreen);
+    text-align: center;
+    font-size: 50px;
+    font-family: var(--fuente1);
+}
+.contenido1{
+    font-size: 30px;
+    font-family: var(--fuente1);
+    text-align: center;
+    color: var(--evergreen);
+}
+.contenido2{
+    font-family: var(--fuente3);
+    text-align: center;
+    color: var(--evergreen);
+}
+.intro{
+    background-color: var(--evening1);
+}
+.historia{
+    background-color: var(--evening1);
+}
+.peliculas{
+    background-color: var(--evening1);
+}
+.musica{
+    background-color: var(--evening1);
+}
+.top{
+    font-family: var(--fuente3);
+}
